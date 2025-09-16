@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>THE REWYND</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 90%;
+      max-width: 400px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      /* placeholder background if no image */
+      background-color: #ddd;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+    .social-links, .music-links {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+    .social-links li, .music-links li {
+      margin: 10px 0;
+    }
+    a.button {
+      display: block;
+      text-decoration: none;
+      color: white;
+      background-color: #1a73e8;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    a.button:hover {
+      background-color: #1558b0;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #777777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Profile / Title -->
+    <div class="profile">
+      <div class="profile-image">
+        <!-- You can put <img src="path_to_image.jpg" alt="The Rewynd"> here -->
+      </div>
+      <h1>THE REWYND</h1>
+    </div>
+
+    <!-- Social Media Links -->
+    <ul class="social-links">
+      <li><a class="button" href="https://www.facebook.com/therewynd" target="_blank">Facebook</a></li>
+      <li><a class="button" href="https://instagram.com/therewynd" target="_blank">Instagram</a></li>
+      <li><a class="button" href="https://x.com/therewynd" target="_blank">X</a></li>
+      <li><a class="button" href="mailto:therewynd@example.com">Email</a></li>
+      <li><a class="button" href="https://tiktok.com/@therewynd" target="_blank">TikTok</a></li>
+    </ul>
+
+    <!-- Music Links -->
+    <h2>LISTEN : Overdrive</h2>
+    <ul class="music-links">
+      <li><a class="button" href="https://music.apple.com/album/overdrive/..." target="_blank">Apple Music</a></li>
+      <li><a class="button" href="https://open.spotify.com/track/..." target="_blank">Spotify</a></li>
+      <li><a class="button" href="https://music.amazon.in/..." target="_blank">Amazon Music</a></li>
+      <li><a class="button" href="https://youtube.com/..." target="_blank">YouTube</a></li>
+      <li><a class="button" href="https://tidal.com/..." target="_blank">TIDAL</a></li>
+      <li><a class="button" href="https://therewyndshop.example.com" target="_blank">SHOP</a></li>
+    </ul>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="#">Cookie Preferences</a> · <a href="#">Report</a> · <a href="#">Privacy</a>
+    </div>
+  </div>
+</body>
+</html>
